@@ -1,0 +1,14 @@
+$color: blanchedalmond;
+
+table {
+    background-color: $color;
+    border: 3px solid black;
+    margin: auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+th {
+    text-decoration: underline;
+}

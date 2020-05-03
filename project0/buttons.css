@@ -1,0 +1,24 @@
+.nolink, .link {
+  font-family: Impact, Charcoal, sans-serif;
+  width: 200px;
+  height: 50px;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.link {
+  background-color: white;
+  border: 1px solid black;
+}
+.link:hover {
+  background-color: lightgreen;
+}
+
+.nolink {
+  background-color: darkgreen;
+  color: white;
+  border: none;
+}
+
+/*# sourceMappingURL=buttons.css.map */
