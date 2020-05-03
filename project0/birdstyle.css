@@ -1,0 +1,53 @@
+h1, h2, div {
+    text-align: center;
+}
+#navbar {
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+}
+@media (max-width: 639px) {
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 22.72px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 17.28px;
+    }
+}
+li {
+    font-size: 20px;
+    margin-left: 100px;
+}
+.scientific {
+    display: none;
+}
+.species:hover {
+    background-color: yellow;
+}
+.species:hover .scientific {
+    display: inline-block;
+    font-style: italic;
+}
+.tax {
+    font-weight: bold;
+    color: darkgreen;
+}
+img {
+    border: 1px solid black;
+}
+p {
+    width: 50%;
+    margin: auto;
+}
