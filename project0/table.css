@@ -13,4 +13,9 @@ th {
   text-decoration: underline;
 }
 
+tr .indexcell, td .indexcell {
+  border: none;
+  text-align: center;
+}
+
 /*# sourceMappingURL=table.css.map */

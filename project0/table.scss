@@ -12,3 +12,9 @@ th, td {
 th {
     text-decoration: underline;
 }
+tr, td {
+    .indexcell {
+        border: none;
+        text-align: center;
+    }
+}
