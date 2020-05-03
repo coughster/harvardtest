@@ -6,7 +6,6 @@ table {
     margin: auto;
 }
 th, td {
-    border: 1px solid black;
     padding: 10px;
 }
 th {
@@ -16,5 +15,8 @@ tr, td {
     .indexcell {
         border: none;
         text-align: center;
+    }
+    .bordercell {
+        border: 1px solid black;
     }
 }
