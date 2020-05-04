@@ -11,12 +11,15 @@ th, td {
 th {
     text-decoration: underline;
 }
-tr, td {
-    .indexcell {
-        border: none;
-        text-align: center;
+.indexcell {
+    tr, td {
+      border: none;
+      text-align: center;
     }
-    .bordercell {
-        border: 1px solid black;
+}
+.bordercell {
+    th, tr, td {
+      border: 1px solid black;
+      text-align: center;
     }
 }

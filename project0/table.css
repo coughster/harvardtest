@@ -12,12 +12,14 @@ th {
   text-decoration: underline;
 }
 
-tr .indexcell, td .indexcell {
+.indexcell tr, .indexcell td {
   border: none;
   text-align: center;
 }
-tr .bordercell, td .bordercell {
+
+.bordercell th, .bordercell tr, .bordercell td {
   border: 1px solid black;
+  text-align: center;
 }
 
 /*# sourceMappingURL=table.css.map */
