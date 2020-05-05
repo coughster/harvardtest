@@ -63,6 +63,7 @@ li > p {
 }
 ul > li {
     margin-bottom: 20px;
+    margin-left: 5px;
 }
 .tablepara {
     width: 100%;

@@ -12,10 +12,10 @@ photos.html - A page with more detailed metadata about some high quality photos,
 
 hotspots.html - A page with an unordered list of top birding spots, alphabetized. As a user friendly search function, I used the Bootstrap flexbox grid to link to #id tags by letter throughout the page.
 
-birdstyle.css - This is my base stylesheet across the website. It encompasses attributes I want to define site-wide, including #id tags that are ubiquitous across all pages, various responsive @media queries, and a great number of selectors including descendants and children (>).
+birdstyle.css - This is my base stylesheet across the website. It encompasses attributes I want to define site-wide, including #id tags that are ubiquitous across all pages, various responsive @media queries, a great number of selectors including descendants and children (>), and lots of properties.
 
-buttons.scss - This is my SASS stylesheet where I define all attributes for buttons. Any page with buttons has this stylesheet (translated to a .css file) applied. Within it, I use inheritance (%message) to apply the same attributes to different .classes of button. I also use nesting to apply some attributes to certain descendants.
+buttons.scss - This is my SASS stylesheet where I define all selectors and properties for buttons. Any page with buttons has this stylesheet (translated to a .css file) applied. Within it, I use inheritance (%message) to apply the same attributes to different .classes of button. I also use nesting to apply some attributes to certain descendants.
 
-table.scss - This is my SASS stylesheet where I define all attributes for tables. Any page with tables has this stylesheet (translated to a .css file) applied. Within it, I use a $variable to indicate a desired element for all tables. I also use some significant nesting to efficiently tweak the descendants of two different .classes of table.
+table.scss - This is my SASS stylesheet where I define all selectors and properties for tables. Any page with tables has this stylesheet (translated to a .css file) applied. Within it, I use a $variable to indicate a desired element for all tables. I also use some significant nesting to efficiently tweak the descendants of two different .classes of table.
 
 images folder - All .png photo thumbnails are stored here.
