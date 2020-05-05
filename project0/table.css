@@ -1,7 +1,6 @@
 table {
   background-color: blanchedalmond;
   border: 3px solid black;
-  margin: auto;
 }
 
 th, td {
@@ -12,11 +11,17 @@ th {
   text-decoration: underline;
 }
 
+.indexcell {
+  margin: 30px;
+}
 .indexcell tr, .indexcell td {
   border: none;
   text-align: center;
 }
 
+.bordercell {
+  margin: auto;
+}
 .bordercell th, .bordercell tr, .bordercell td {
   border: 1px solid black;
   text-align: center;

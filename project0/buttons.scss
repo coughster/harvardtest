@@ -1,7 +1,5 @@
 %message {
-    font-family: Impact, Charcoal, sans-serif;
-    width: 200px;
-    height: 50px;
+    font-family: Impact, sans-serif;
     font-size: 28px;
     font-weight: bold;
     margin: 5px;
@@ -9,6 +7,8 @@
 .link {
     background-color: white;
     border: 1px solid black;
+    width: 200px;
+    height: 50px;
     &:hover {
         background-color: lightgreen;
     }
@@ -18,5 +18,16 @@
     background-color: darkgreen;
     color: white;
     border: none;
+    width: 200px;
+    height: 50px;
     @extend %message;
+}
+.letter {
+    background-color: white;
+    border: 1px solid white;
+    &:hover {
+        background-color: blanchedalmond;
+        border: 1px solid black;
+  }
+  @extend %message;
 }

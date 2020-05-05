@@ -3,7 +3,6 @@ $color: blanchedalmond;
 table {
     background-color: $color;
     border: 3px solid black;
-    margin: auto;
 }
 th, td {
     padding: 10px;
@@ -12,12 +11,14 @@ th {
     text-decoration: underline;
 }
 .indexcell {
+    margin: 30px;
     tr, td {
       border: none;
       text-align: center;
     }
 }
 .bordercell {
+    margin: auto;
     th, tr, td {
       border: 1px solid black;
       text-align: center;

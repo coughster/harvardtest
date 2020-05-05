@@ -6,6 +6,9 @@ h1, h2, div {
     color: white;
     padding: 20px;
 }
+#footer {
+    margin-bottom: 30px;
+}
 @media (max-width: 639px) {
     h1 {
         font-size: 32px;
@@ -50,4 +53,14 @@ img {
 p {
     width: 50%;
     margin: auto;
+}
+li > p {
+    width: 95%;
+    margin-left: 5%;
+}
+ul > li {
+    margin-bottom: 20px;
+}
+.tablepara {
+    width: 100%;
 }

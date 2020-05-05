@@ -1,7 +1,5 @@
-.nolink, .link {
-  font-family: Impact, Charcoal, sans-serif;
-  width: 200px;
-  height: 50px;
+.letter, .nolink, .link {
+  font-family: Impact, sans-serif;
   font-size: 28px;
   font-weight: bold;
   margin: 5px;
@@ -10,6 +8,8 @@
 .link {
   background-color: white;
   border: 1px solid black;
+  width: 200px;
+  height: 50px;
 }
 .link:hover {
   background-color: lightgreen;
@@ -19,6 +19,17 @@
   background-color: darkgreen;
   color: white;
   border: none;
+  width: 200px;
+  height: 50px;
+}
+
+.letter {
+  background-color: white;
+  border: 1px solid white;
+}
+.letter:hover {
+  background-color: blanchedalmond;
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=buttons.css.map */
