@@ -2,12 +2,15 @@ h1, h2, div {
     text-align: center;
 }
 #navbar {
-    background-color: darkgreen;
+    background-color: skyblue;
     color: white;
     padding: 20px;
 }
 #footer {
     margin-bottom: 30px;
+}
+body {
+    background-color: powderblue;
 }
 @media (max-width: 639px) {
     h1 {
@@ -37,7 +40,7 @@ li {
     display: none;
 }
 .species:hover {
-    background-color: yellow;
+    background-color: darkturquoise;
 }
 .species:hover .scientific {
     display: inline-block;
@@ -45,7 +48,7 @@ li {
 }
 .tax {
     font-weight: bold;
-    color: darkgreen;
+    color: mediumblue;
 }
 img {
     border: 1px solid black;

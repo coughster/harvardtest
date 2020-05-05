@@ -5,29 +5,30 @@
     margin: 5px;
 }
 .link {
-    background-color: white;
-    border: 1px solid black;
+    background-color: lightcyan;
+    border: none;
     width: 200px;
     height: 50px;
     &:hover {
-        background-color: lightgreen;
+        background-color: darkturquoise;
     }
     @extend %message;
 }
 .nolink {
-    background-color: darkgreen;
+    background-color: skyblue;
     color: white;
+    text-shadow: 1px 1px black;
     border: none;
     width: 200px;
     height: 50px;
     @extend %message;
 }
 .letter {
-    background-color: white;
-    border: 1px solid white;
+    background-color: powderblue;
+    border: none;
     &:hover {
-        background-color: blanchedalmond;
-        border: 1px solid black;
+        background-color: darkturquoise;
+        border: none;
   }
   @extend %message;
 }

@@ -6,30 +6,31 @@
 }
 
 .link {
-  background-color: white;
-  border: 1px solid black;
+  background-color: lightcyan;
+  border: none;
   width: 200px;
   height: 50px;
 }
 .link:hover {
-  background-color: lightgreen;
+  background-color: darkturquoise;
 }
 
 .nolink {
-  background-color: darkgreen;
+  background-color: skyblue;
   color: white;
+  text-shadow: 1px 1px black;
   border: none;
   width: 200px;
   height: 50px;
 }
 
 .letter {
-  background-color: white;
-  border: 1px solid white;
+  background-color: powderblue;
+  border: none;
 }
 .letter:hover {
-  background-color: blanchedalmond;
-  border: 1px solid black;
+  background-color: darkturquoise;
+  border: none;
 }
 
 /*# sourceMappingURL=buttons.css.map */
